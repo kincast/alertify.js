@@ -20,6 +20,11 @@
 	padding: 10px;
 	border-radius: 4px;
 }
+.alertify-message {
+	color: #83716C;
+	font-size: 150%;
+	margin-bottom: 2em;
+}
 .alertify-button {
 	border-radius: 4px;
 	color: #FFF;
@@ -37,24 +42,24 @@
 .alertify-button:hover,
 .alertify-button:focus {
 	outline: none;
-	box-shadow: 0 0 15px #2B72D5;
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,0));
 	background-image:    -moz-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,0));
 	background-image:     -ms-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,0));
 	background-image:      -o-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,0));
 	background-image:         linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,0));
+	text-decoration: none;
 }
 .alertify-button:active {
 	position: relative;
 	top: 1px;
 }
 	.alertify-button-cancel {
-		background-color: #FE1A00;
+		background-color: #8d9ca1;
 		border: 1px solid #D83526;
 	}
 	.alertify-button-ok {
-		background-color: #5CB811;
-		border: 1px solid #3B7808;
+	    background-color: #608f9f;
+	    border: 1px solid #496d78;
 	}
 .alertify-log {
 	background: #1F1F1F;
